@@ -1,0 +1,12 @@
+no need nodemon
+
+docker-compose build
+docker-compose up
+
+after run the command 
+
+goto web page and run
+
+http://localhost:3000/
+http://localhost:3000/createMongo
+http://localhost:3000/readMongo

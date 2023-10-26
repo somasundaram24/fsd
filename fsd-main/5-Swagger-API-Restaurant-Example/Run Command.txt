@@ -1,0 +1,7 @@
+npm i 
+node index
+
+its start localhost 4000
+localhost:4000/api-docs
+
+then do all process in that page
