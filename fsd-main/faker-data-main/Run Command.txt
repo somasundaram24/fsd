@@ -1,0 +1,5 @@
+npm i 
+
+node task5.js
+
+see output in terminal
