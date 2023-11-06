@@ -1,0 +1,13 @@
+npm i
+node index
+click the localhost port in terminal
+
+then type this in left side box in graphql
+{
+  games{
+    title
+    publisher
+  }
+}
+
+title and publisher are fields in games so which fied you type with that

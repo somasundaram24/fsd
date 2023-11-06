@@ -1,0 +1,7 @@
+npm i
+docker run -p 6379:6379 --name some-redis -d redis
+docker ps
+node key_get_set.js
+node index.js
+
+then run localhost:3000 in web page
