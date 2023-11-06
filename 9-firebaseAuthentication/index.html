@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firebase Authentication</title>
+  <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+  <!-- LOGIN SECTION -->
+  <div class = "login-container">
+    <div id= "main">
+      <h1>LOGIN</h1>
+      <input id = "email" type = "text" placeholder = "Email"></input>
+      <input id = "password" type = "password" placeholder = "Password"></input>
+      <button id = "submit">LOGIN</button>
+      <p><span>or</span></p>
+      <button id = "sign-up">Create an Account</button>
+    </div>
+<!-- REGISTER SECTION -->
+    <div id = "create-acct">
+      <h1>SIGNUP</h1>
+      <input id = "email-signup" type = "text" placeholder = "Email *"></input>
+  <input id = "confirm-email-signup" type = "email" placeholder = "Confirm Email *"></input>
+      <input id = "password-signup" type = "password" placeholder = "Password *"></input>
+      <input id = "confirm-password-signup" type = "password" placeholder = "Confirm Password *"></input>
+      <button id = "create-acct-btn">Create Account</button>
+      <button id = "return-btn">Return to Login</button>
+    </div>
+    <!-- LOGOUT SECTION -->
+    <button 
+    id="logout" 
+    style="display: none;
+    background-color: #142b47;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    text-decoration: none;">Logout</button>
+  </div>
+  <script type = "module" src = "script.js"></script>
+</body>
+</html>

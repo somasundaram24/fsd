@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(79, 120, 244);
+}
+
+#nav #navbar{
+    background-color: midnightblue;
+    padding: .5%;
+    font-size: large;
+    font-weight: bold;
+}
+
+#create #card1{
+    margin: 10%;
+    margin-left: 35%;
+    padding: 1%;
+}
+
+#depo #card3{
+    margin: 10%;
+    margin-left: 35%;
+    padding: 1%;
+}
+
+#with #card3{
+    margin: 10%;
+    margin-left: 35%;
+    padding: 1%;
+}
+
+input{
+    border: 3px solid navy;
+    padding: 1.5%;
+    width: 70%;
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+}
